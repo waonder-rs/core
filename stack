@@ -1,0 +1,28 @@
+Scale 1
+	layers
+		litosphere
+			bitmap
+				- plaques tectoniques
+				- zones geologiques (mers, oceans, deserts)
+				- altitude
+			logic
+				- grands afluents
+			
+		biosphere
+			bitmap
+				- forets
+	
+	ground geometry
+		icosphere
+		
+	subscales
+
+Scale 2
+	ground geometry
+		topogrpahy + voxel ?
+		
+	subscales
+		
+Scale 3
+	ground geometry
+		detailed mesh, from topography.

@@ -1,0 +1,7 @@
+[package]
+name = "wonder"
+version = "0.1.0"
+authors = ["Timothée Haudebourg <timothee.haudebourg@irisa.fr>"]
+edition = "2018"
+
+[dependencies]
