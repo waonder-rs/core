@@ -1,12 +1,7 @@
-pub mod location;
-pub use location::Location;
+extern crate render_gl as render;
+extern crate engine;
 
-pub mod planet;
-pub use planet::Planet;
+pub mod node;
+pub use node::Node;
 
-/**
- * A ground layout.
- */
-trait Layout {
-    type Location : Location;
-}
+pub mod layer;
