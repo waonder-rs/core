@@ -1,9 +1,10 @@
 [package]
-name = "wonder"
+name = "wonder-core"
 version = "0.1.0"
-authors = ["Timothée Haudebourg <timothee.haudebourg@irisa.fr>"]
+authors = ["Timothée Haudebourg <wonder@haudebourg.net>"]
 edition = "2018"
 
 [dependencies]
-render-gl = { path = "../../../../ui/g/render/gl" }
+vulkano = "*"
 engine = { path = "../../engine" }
+integer-sqrt = "0.1.3"

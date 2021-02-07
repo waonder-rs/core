@@ -1,7 +1,3 @@
-extern crate render_gl as render;
-extern crate engine;
+#![feature(const_int_pow)]
 
-pub mod node;
-pub use node::Node;
-
-pub mod layer;
+pub mod topology;
