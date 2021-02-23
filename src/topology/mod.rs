@@ -6,4 +6,4 @@
 pub mod utils;
 pub mod sphere;
 
-// pub use sphere::Sphere;
+pub use sphere::Sphere;
